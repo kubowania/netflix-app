@@ -31,11 +31,6 @@ cp .env.local.example .env.local
 Edit `.env.local` with your configuration:
 
 ```env
-# MongoDB Connection (choose one):
-
-# For local MongoDB:
-MONGODB_URI=mongodb://localhost:27017/netflix-app
-
 # For MongoDB Atlas (replace with your connection string):
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/netflix-app?retryWrites=true&w=majority
 
