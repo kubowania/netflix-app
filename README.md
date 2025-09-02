@@ -51,12 +51,7 @@ Copy the output and replace `your-super-secret-nextauth-secret-here` in your `.e
 
 ### 3. Database Setup
 
-#### Option A: Local MongoDB
-1. Install MongoDB locally
-2. Start MongoDB service
-3. The app will create the database automatically
-
-#### Option B: MongoDB Atlas (Recommended)
+#### MongoDB Atlas
 1. Create a free account at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 2. Create a new cluster
 3. Create a database user
