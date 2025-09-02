@@ -1,0 +1,42 @@
+.page {
+  min-height: 100vh;
+  background-color: var(--netflix-dark);
+}
+
+.main {
+  padding-top: 70px; /* Account for fixed header */
+}
+
+.content {
+  padding-bottom: 60px;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--netflix-dark);
+  color: var(--netflix-white);
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid var(--netflix-gray);
+  border-top: 4px solid var(--netflix-red);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading p {
+  font-size: 16px;
+  color: var(--netflix-light-gray);
+}

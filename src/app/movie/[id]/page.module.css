@@ -1,0 +1,72 @@
+.page {
+  min-height: 100vh;
+  background: var(--netflix-dark);
+  color: var(--netflix-white);
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  gap: 20px;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(229, 9, 20, 0.3);
+  border-top: 3px solid var(--netflix-red);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading p {
+  font-size: 18px;
+  color: var(--netflix-light-gray);
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  gap: 20px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.error h1 {
+  font-size: 48px;
+  color: var(--netflix-white);
+  margin-bottom: 16px;
+}
+
+.error p {
+  font-size: 18px;
+  color: var(--netflix-light-gray);
+  margin-bottom: 24px;
+}
+
+.backButton {
+  padding: 12px 24px;
+  background: var(--netflix-red);
+  color: var(--netflix-white);
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.backButton:hover {
+  background: #cc0811;
+}
