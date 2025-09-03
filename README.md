@@ -20,6 +20,8 @@ This is a fully functional Netflix clone built with Next.js, TypeScript, MongoDB
 
 ## Setup Instructions
 
+Made using the Warp terminal. Pro plan for only 5USD. Use code NETFLIX to redeem here: https://go.warp.dev/ania
+
 ### 1. Environment Variables
 
 Copy the environment template and configure your variables:
